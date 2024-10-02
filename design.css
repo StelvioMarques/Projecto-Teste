@@ -5,7 +5,7 @@ h1{
 
 @keyframes troca-cor {
     0%{
-        color: red;
+        color: aqua;
         transition: 2s;
     }
 
