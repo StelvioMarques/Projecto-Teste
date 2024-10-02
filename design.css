@@ -44,3 +44,20 @@ h1{
     box-shadow: 1px 1px 4px black;
     margin: 10px auto;
 }
+
+.pai{
+    width: 100%;
+    background-color: black;
+    height: 550x;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filho{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+}
