@@ -1,0 +1,31 @@
+h1{
+    animation: troca-cor 5s ease-out infinite;
+    transition: 2s;
+}
+
+@keyframes troca-cor {
+    0%{
+        color: red;
+        transition: 2s;
+    }
+
+    25%{
+        color: turquoise;
+        transition: 2s;
+    }
+
+    50%{
+        color: rgb(0, 255, 128);
+        transition: 2s;
+    }
+
+    75%{
+        color: rgb(255, 208, 0);
+        transition: 2s;
+    }
+
+    100%{
+        color: rgb(255, 0, 149);
+        transition: 2s;
+    }
+}
